@@ -1,5 +1,5 @@
-FROM frodenas/java7
-MAINTAINER Ferran Rodenas <frodenas@gmail.com>
+FROM java:7-jdk
+MAINTAINER Jens Böttcher <eljenso.boettcher@gmail.com>
 
 # Install and configure Neo4j 2.2.3
 RUN cd /tmp && \

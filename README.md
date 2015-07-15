@@ -39,7 +39,3 @@ $ docker run -d \
     -v /tmp/neo4j:/data \
     frodenas/neo4j
 ```
-
-## Copyright
-
-Copyright (c) 2014 Ferran Rodenas. See [LICENSE](https://github.com/frodenas/docker-neo4j/blob/master/LICENSE) for details.

@@ -6,16 +6,16 @@ A Dockerfile that produces a Docker Image for [Neo4j](http://www.neo4j.org/).
 
 The `master` branch currently hosts Neo4j 2.1.
 
-Different versions of Neo4j are located at the github repo [branches](https://github.com/frodenas/docker-neo4j/branches).
+Different versions of Neo4j are located at the github repo [branches](https://github.com/josekilo/docker-neo4j/branches).
 
 ## Usage
 
 ### Build the image
 
-To create the image `frodenas/neo4j`, execute the following command on the `docker-neo4j` folder:
+To create the image `josekilo/neo4j`, execute the following command on the `docker-neo4j` folder:
 
 ```
-$ docker build -t frodenas/neo4j .
+$ docker build -t josekilo/neo4j .
 ```
 
 ### Run the image
@@ -23,7 +23,7 @@ $ docker build -t frodenas/neo4j .
 To run the image and bind to host port 7474:
 
 ```
-$ docker run -d --name neo4j -p 7474:7474 frodenas/neo4j
+$ docker run -d --name neo4j -p 7474:7474 josekilo/neo4j
 ```
 
 #### Persistent data
@@ -37,5 +37,5 @@ $ docker run -d \
     --name neo4j \
     -p 7474:7474 \
     -v /tmp/neo4j:/data \
-    frodenas/neo4j
+    josekilo/neo4j
 ```

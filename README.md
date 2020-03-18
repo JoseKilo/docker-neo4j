@@ -4,7 +4,7 @@ A Dockerfile that produces a Docker Image for [Neo4j](http://www.neo4j.org/).
 
 ## Neo4j version
 
-The `master` branch currently hosts Neo4j 2.1.
+The `master` branch currently hosts Neo4j 2.2.10.
 
 Different versions of Neo4j are located at the github repo [branches](https://github.com/josekilo/docker-neo4j/branches).
 

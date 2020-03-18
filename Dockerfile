@@ -1,10 +1,10 @@
 FROM java:7-jdk
 
-# Install Neo4j 2.2.3
+# Install Neo4j 2.2.10
 RUN cd /tmp && \
-    wget http://dist.neo4j.org/neo4j-community-2.2.3-unix.tar.gz && \
-    tar xzvf neo4j-community-2.2.3-unix.tar.gz && \
-    mv /tmp/neo4j-community-2.2.3/ /neo4j
+    wget http://dist.neo4j.org/neo4j-community-2.2.10-unix.tar.gz && \
+    tar xzvf neo4j-community-2.2.10-unix.tar.gz && \
+    mv /tmp/neo4j-community-2.2.10/ /neo4j
 
 # Configure Neo4j
 RUN sed -e 's/#allow_store_upgrade=.*$/allow_store_upgrade=true/' -i /neo4j/conf/neo4j.properties && \

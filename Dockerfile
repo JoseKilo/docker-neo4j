@@ -1,5 +1,4 @@
 FROM java:7-jdk
-MAINTAINER Jens Böttcher <eljenso.boettcher@gmail.com>
 
 # Install Neo4j 2.2.3
 RUN cd /tmp && \
